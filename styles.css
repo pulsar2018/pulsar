@@ -1,0 +1,74 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body{
+  background: black;
+}
+
+svg{
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  
+}
+
+
+/*Position*/
+
+
+.element {
+  background-color: black;
+  width: px;
+  height: 430px;
+  border: 5px solid black;
+  border-top-width: 5px;
+  border-top-color: black;
+  border-top-style: solid;  /* Esta propiedad no es necesaria (se hereda) */
+}
+
+.img-logo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 500px;
+  width: 800px;
+  box-shadow: 0 0 60px #1414b8;
+  border: 1px solid; height: margin:10px; 
+  border-radius: 5px;
+}
+
+
+/*Position-images*/
+.position-image1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 900px;
+  width: 1920px;
+  }
+
+
+
+.position-play1 {
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  }
+
+.position-edificio {
+  height: 110px;
+  width: 150px;
+  position: absolute;
+  top: 43%;
+  left: 1%;
+  }
